@@ -1,0 +1,124 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "greeter",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "hello",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GoingToCityIntent",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.EUROPE_CITY"
+                        },
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE"
+                        },
+                        {
+                            "name": "eventCategories",
+                            "type": "eventCategory"
+                        }
+                    ],
+                    "samples": [
+                        "{date}",
+                        "{eventCategories}",
+                        "I'm interested in {eventCategories}",
+                        "I want to visit on {date} and I'm interested in {eventCategories}",
+                        "I want to go to {city} on {date}",
+                        "I want to go on {date} and I'm interested in {eventCategories}",
+                        "I'd like to go on {date} and I'm interested in {eventCategories}",
+                        "I'm going on {date} and I'm interested in {eventCategories}",
+                        "I'm visiting on {date} and I'm interested in {eventCategories}",
+                        "I want to go on {date}",
+                        "I'd like to go on {date}",
+                        "I'm going on {date}",
+                        "I'm visiting on {date}",
+                        "I want to visit {city} on {date}",
+                        "I'd like to go to {city} on {date}",
+                        "I'm visiting {city} on {date}",
+                        "I'd like to go to {city}",
+                        "I want to visit {city}",
+                        "I'm visiting {city}",
+                        "on {date}",
+                        "I'm going to {city}",
+                        "I'm going to {city} on {date} and I'm interested in {eventCategories}",
+                        "I'm going to {city} on {date}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "eventCategory",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "FoodAndDrink"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ArtsAndMusic"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "YesOrNo",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no",
+                                "synonyms": [
+                                    "nah",
+                                    "nope"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yes",
+                                "synonyms": [
+                                    "yeah",
+                                    "yep"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

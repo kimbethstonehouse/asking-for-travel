@@ -1,0 +1,320 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "asking for travel",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "hello",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GoingToCityIntent",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.EUROPE_CITY"
+                        },
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE"
+                        },
+                        {
+                            "name": "eventCategories",
+                            "type": "eventCategory"
+                        },
+                        {
+                            "name": "YesOrNo",
+                            "type": "YesOrNo"
+                        }
+                    ],
+                    "samples": [
+                        "{date} and I'm interested in {eventCategories}",
+                        "{date} and I like {eventCategories}",
+                        "I want to go there on {date}",
+                        "on {date} I want to go to {city} and I like {eventCategories}",
+                        "on {date} i want to go to {city} and I'm interested in {eventCategories}",
+                        "I want to go to {city} on {date} and I like {eventCategories}",
+                        "I'm going to visit there on {date}",
+                        "I'd like to visit there on {date}",
+                        "I'd like to go there on {date}",
+                        "on {date} I'd like to go to {city} and I'm interested in {eventCategories}",
+                        "on {date} i'd like to go to {city} and I like {eventCategories}",
+                        "I'd like to go to {city} on {date} and I like {eventCategories}",
+                        "I'd like to go to {city} on {date} and I'm interested in {eventCategories}",
+                        "on {date} I'd like to go to {city}",
+                        "I'd like to visit {city} on {date}",
+                        "I'd like to visit {city}",
+                        "on {date} I'd like to visit {city}",
+                        "on {date} I'd like to visit {city} and I'm interested in {eventCategories}",
+                        "on {date} I'd like to visit {city} and I like {eventCategories}",
+                        "I'd like to visit {city} on {date} and I like {eventCategories}",
+                        "on {date} I want to visit {city}",
+                        "on {date} I want to visit {city} and I like {eventCategories}",
+                        "on {date} I want to visit {city} and I'm interested in {eventCategories}",
+                        "I want to visit {city} on {date} and I like {eventCategories}",
+                        "on {date} I'm visiting {city} and I'm interested in {eventCategories}",
+                        "on {date} I'm visiting {city} and i like {eventCategories}",
+                        "I'm going there on {date} and I like {eventCategories}",
+                        "I'm going there on {date} and I'm interested in {eventCategories}",
+                        "I'm visiting there on {date}",
+                        "I'm going there on {date}",
+                        "I'm visiting there on {date} and I like {eventCategories}",
+                        "I'm visiting there on {date} and I'm interested in {eventCategories}",
+                        "I'm visiting on {date} and I like {eventCategories}",
+                        "I'm visiting {city} and it will be on {date} and I like {eventCategories}",
+                        "I'm visiting {city} and it will be on {date} and I'm interested in {eventCategories}",
+                        "I'm visiting {city} on {date} and I like {eventCategories}",
+                        "on {date} and I like {eventCategories}",
+                        "on {date} and I'm interested in {eventCategories}",
+                        "on {date} I'm going to {city}",
+                        "on {date} I'm going to {city} and I'm interested in {eventCategories}",
+                        "on {date} I'm going to {city} and I like {eventCategories}",
+                        "I'm going to {city} on {date} and I like {eventCategories} ",
+                        "I'm going to {city} and it will be on {date} and I like {eventCategories}",
+                        "I'm going to {city} and it will be on {date} and I'm interested in {eventCategories}",
+                        "It will be on {date} and I'm interested in {eventCategories}",
+                        "It will be on {date} and I like {eventCategories}",
+                        "I'm going to visit on {date} and I like {eventCategories}",
+                        "I'm going to visit on {date} and I'm interested in {eventCategories}",
+                        "I like {eventCategories}",
+                        "It will be on {date}",
+                        "{city}",
+                        "I'm going to visit on {date}",
+                        "I'm going to visit {city}",
+                        "I'm going to visit {city} on {date}",
+                        "I'm going to visit {city} on {date} and I like {eventCategories}",
+                        "I'm going to visit {city} on {date} and I'm interested in {eventCategories}",
+                        "{YesOrNo}",
+                        "{date}",
+                        "{eventCategories}",
+                        "I'm interested in {eventCategories}",
+                        "I want to visit on {date} and I'm interested in {eventCategories}",
+                        "I want to go to {city} on {date}",
+                        "I want to go on {date} and I'm interested in {eventCategories}",
+                        "I'd like to go on {date} and I'm interested in {eventCategories}",
+                        "I'm going on {date} and I'm interested in {eventCategories}",
+                        "I'm visiting on {date} and I'm interested in {eventCategories}",
+                        "I want to go on {date}",
+                        "I'd like to go on {date}",
+                        "I'm going on {date}",
+                        "I'm visiting on {date}",
+                        "I want to visit {city} on {date}",
+                        "I'd like to go to {city} on {date}",
+                        "I'm visiting {city} on {date}",
+                        "I'd like to go to {city}",
+                        "I want to visit {city}",
+                        "I'm visiting {city}",
+                        "on {date}",
+                        "I'm going to {city}",
+                        "I'm going to {city} on {date} and I'm interested in {eventCategories}",
+                        "I'm going to {city} on {date}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "eventCategory",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Technology",
+                                "synonyms": [
+                                    "nerdy things",
+                                    "nerd stuff",
+                                    "mathematics",
+                                    "data science",
+                                    "data",
+                                    "hackathons",
+                                    "mechanics",
+                                    "engineering",
+                                    "comp ski",
+                                    "computer science",
+                                    "programming",
+                                    "coding",
+                                    "computers",
+                                    "chemistry",
+                                    "maths",
+                                    "biology",
+                                    "physics",
+                                    "science",
+                                    "tech"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Business",
+                                "synonyms": [
+                                    "coaching",
+                                    "employment",
+                                    "networking",
+                                    "career",
+                                    "conference",
+                                    "work",
+                                    "business"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Food",
+                                "synonyms": [
+                                    "food and drink",
+                                    "scran",
+                                    "cocktails",
+                                    "drinking",
+                                    "bar",
+                                    "restaurants",
+                                    "alcohol",
+                                    "eat",
+                                    "eating out",
+                                    "drink",
+                                    "food"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Family",
+                                "synonyms": [
+                                    "community",
+                                    "school holiday",
+                                    "school",
+                                    "reading ",
+                                    "learning experience ",
+                                    "learning ",
+                                    "children's activities ",
+                                    "school activities ",
+                                    "family ",
+                                    "education "
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sport",
+                                "synonyms": [
+                                    "swimming",
+                                    "golf",
+                                    "basketball",
+                                    "rugby",
+                                    "football",
+                                    "explore",
+                                    "flying",
+                                    "plane",
+                                    "boat",
+                                    "sports ",
+                                    "fitness ",
+                                    "health ",
+                                    "cycling ",
+                                    "biking ",
+                                    "walking ",
+                                    "sailing ",
+                                    "walk ",
+                                    "mountain",
+                                    "beach",
+                                    "in the open ",
+                                    "woods",
+                                    "picnic",
+                                    "trip",
+                                    "tour",
+                                    "nature",
+                                    "expedition",
+                                    "outside",
+                                    "sightseeing",
+                                    "excursion",
+                                    "outdoor",
+                                    "travel"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Arts",
+                                "synonyms": [
+                                    "media",
+                                    "heritage ",
+                                    "historical ",
+                                    "history",
+                                    "sculpture ",
+                                    "painting ",
+                                    "writing ",
+                                    "drama ",
+                                    "concert ",
+                                    "live music ",
+                                    "jazz ",
+                                    "opera ",
+                                    "cinema ",
+                                    "movie ",
+                                    "arts and craft ",
+                                    "museum ",
+                                    "art museum ",
+                                    "art gallery ",
+                                    "gallery ",
+                                    "fashion ",
+                                    "media ",
+                                    "film ",
+                                    "arts ",
+                                    "art ",
+                                    "music"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "YesOrNo",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no",
+                                "synonyms": [
+                                    "nah",
+                                    "nope"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yes",
+                                "synonyms": [
+                                    "yeah",
+                                    "yep"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
