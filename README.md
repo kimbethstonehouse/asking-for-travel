@@ -14,7 +14,7 @@ The user tells Alexa where they are going and when, mentioning a specific intere
 
 *Alexa*: The weather is going to be rainy, and tourists who travel to Glasgow often like to visit the Botanic Gardens or the Science Centre. Also, there’s an upcoming event you might be interested in: Glasgow's Whisky Walking Tour. I’ll send you an email with some more detailed information!
 
-![Email](email.png)
+![Email](email.jpg)
 
 ## Technologies
 
