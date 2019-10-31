@@ -10,10 +10,13 @@ The user tells Alexa where they are going and when, mentioning a specific intere
 
 ## Example
 
-User: Tell Asking for Travel I am going to {city} on {date} and I’m interested in {category}
-Alexa: The weather is going to be {weather} and tourists who travel to {city} often like to visit {top tourist attractions}. Also, there’s an upcoming event you might be interested in {event}. I’ll send you an email with some more detailed information!
+2019-04-21
 
+*User*: Tell Asking for Travel I'm going to Glasgow on the 21st April and I’m interested in alcohol
 
+*Alexa*: The weather is going to be rainy and tourists who travel to Glasgow often like to visit the Botanic Gardens or the Science Centre. Also, there’s an upcoming event you might be interested in: Glasgow's Whisky Walking Tour. I’ll send you an email with some more detailed information!
+
+![Email](email.png)
 
 ## Technologies
 
