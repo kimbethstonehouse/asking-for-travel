@@ -12,5 +12,4 @@ We used five APIs: Eventbrite for the upcoming local events, Google Places for t
 
 We pitched our skill to Amazon employees on the final day.
 
-![Presentation](/downloads/IMG_20190418_165450.jpg)
-Format: ![Alt Text](url)
+![Presentation](presentation.jpg)
